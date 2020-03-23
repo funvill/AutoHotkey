@@ -3,7 +3,8 @@
 ; 
 ; Created by Steven Smethurst (@funvill)
 ; Last updated: 2020-March-23
-; More info: 
+; More info: https://github.com/funvill/AutoHotkey
+; 
 
 #NoEnv
 SendMode Input
@@ -42,18 +43,18 @@ F24 & a::^b   ; Toggle side bar
 ; Encoder 1
 ; -----------------
 ; Clockwise
-F24 & q::Volume_Up
+F24 & q::Volume_Down
 ; Anti Clockwise
-F24 & r::Volume_Down
+F24 & r::Volume_Up
 ; Button
 F24 & s:: Volume_Mute
 ;
 ; Encoder 2
 ; -----------------
 ; Clockwise
-F24 & t::Media_Next
+F24 & t::Media_Prev
 ; Anti Clockwise
-F24 & u::Media_Prev
+F24 & u::Media_Next
 ; Button
 F24 & v::Media_Play_Pause
 ;
